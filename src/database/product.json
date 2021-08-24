@@ -1,0 +1,26 @@
+[
+    {
+        "subCategory_id": 1,
+        "product_id": 4,
+        "product_name": "redmi 5",
+        "color": "green",
+        "price": "170",
+        "model": "sasas"
+    },
+    {
+        "subCategory_id": 1,
+        "product_id": 5,
+        "product_name": "sdasd 5",
+        "color": "white",
+        "price": "200",
+        "model": "xiomi"
+    },
+    {
+        "subCategory_id": 1,
+        "product_id": 6,
+        "product_name": "nokia",
+        "color": "black",
+        "price": "dasdsad",
+        "model": "xiomi"
+    }
+]

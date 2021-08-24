@@ -1,0 +1,11 @@
+[
+    {
+        "user_id": 1,
+        "contact": "941710171",
+        "gender": 1,
+        "birth": "1993-11-05",
+        "username": "alish",
+        "password": "11112345",
+        "email": "alish@gmail.com"
+    }
+]
