@@ -24,7 +24,6 @@ app.use(function(req, res, next) {
     });
 server.use(express.urlencoded({ extended: true }))
 server.use(express.json())
-// server.use(express.json())
 server.use(express.text())
 server.use(formData.parse())
 
