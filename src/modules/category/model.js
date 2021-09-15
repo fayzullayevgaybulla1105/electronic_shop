@@ -12,7 +12,7 @@ const all = () => {
     for (let i in categor) {
         if (categor[i].categoryName) {
             catName.push({
-                Category_id: categor[i].category_id,
+                Category_id: categor[i].category_id,   
                 CategoryName: categor[i].categoryName
             })
         }
