@@ -14,6 +14,7 @@ const SUBCATEGORY = (req, res) => {
 
     categories = categories ? JSON.parse(categories) : []
     subcategories = subcategories ? JSON.parse(subcategories) : []
+    console.log(categories);
    
     let subCategory_id = subcategories.length ? subcategories[subcategories.length - 1].subCategory_id + 1 : 1
     let newsubcategory = { subCategory_id, subCategoryName, category_id }

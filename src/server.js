@@ -17,7 +17,7 @@ const server = express()
 let router = express.Router()
 //third party gloabl middlewares
 
-server.use(function(req, res, next) {
+server.use(function(req, res, next) {     
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "X-Requested-With");
     next();

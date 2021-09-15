@@ -4,7 +4,7 @@ import path from 'path'
 
 let categor = fs.readFileSync(path.join(process.cwd(), 'src', 'database', 'subcategory.json'), 'utf-8')
 categor = categor ? JSON.parse(categor) : []
-// console.log(categor);
+console.log(categor);   
 const all = () => {
 
     let subcatName = []
